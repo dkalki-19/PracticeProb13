@@ -18,5 +18,16 @@ public class MaxMin {
         System.out.println(max(5, 3, 2)); // Max at 1st
         System.out.println(max(3, 7, 2)); // Max at 2nd
         System.out.println(max(3, 2, 9)); // Max at 3rd
+        
+        
+        System.out.println("\n=== UC 2: Floats ===");
+        System.out.println(max(5.5f, 3.3f, 2.2f));
+        System.out.println(max(3.3f, 7.7f, 2.2f));
+        System.out.println(max(3.3f, 2.2f, 9.9f));
+        
+        System.out.println("\n=== UC 3: Strings ===");
+        System.out.println(max("Apple", "Peach", "Banana"));
+        System.out.println(max("Peach", "Apple", "Banana"));
+        System.out.println(max("Banana", "Apple", "Peach"));
     }
 }
