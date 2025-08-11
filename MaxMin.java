@@ -50,10 +50,6 @@ public class MaxMin {
         System.out.println(max(3, 7, 2)); // Max at 2nd
         System.out.println(max(3, 2, 9)); // Max at 3rd
         
-<<<<<<< HEAD
-        
-=======
->>>>>>> uc4
         System.out.println("\n=== UC 2: Floats ===");
         System.out.println(max(5.5f, 3.3f, 2.2f));
         System.out.println(max(3.3f, 7.7f, 2.2f));
@@ -63,13 +59,12 @@ public class MaxMin {
         System.out.println(max("Apple", "Peach", "Banana"));
         System.out.println(max("Peach", "Apple", "Banana"));
         System.out.println(max("Banana", "Apple", "Peach"));
-<<<<<<< HEAD
-=======
 
         System.out.println("\n=== Refactor 2: Generic Class ===");
         Maximum<Integer> intMax = new Maximum<>(10, 20, 30);
         System.out.println("Max Integer: " + intMax.testMaximum());
         intMax.printMaximum();
+        
 
         Maximum<String> strMax = new Maximum<>("Zebra", "Lion", "Elephant");
         System.out.println("Max String: " + strMax.testMaximum());
@@ -79,7 +74,5 @@ public class MaxMin {
         System.out.println(max(3, 5, 7, 2, 9, 1));
         System.out.println(max("Dog", "Cat", "Horse", "Elephant"));
         
-        
->>>>>>> uc4
     }
 }
