@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MaxMin {
 
-    // UC 1, UC 2, UC 3, Refactor 1: Generic Method for 3 variables
+    // UC 1, UC 2
     public static <T extends Comparable<T>> T max(T a, T b, T c) {
         T max = a;
         if (b.compareTo(max) > 0) max = b;
