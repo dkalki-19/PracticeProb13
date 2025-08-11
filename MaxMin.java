@@ -19,7 +19,7 @@ public class MaxMin {
         return values[values.length - 1];
     }
     
-    
+    // UC 5: Print the maximum
     public static <T extends Comparable<T>> void printMax(T a, T b, T c) {
         System.out.println("Max is: " + max(a, b, c));
     }
@@ -73,6 +73,10 @@ public class MaxMin {
         System.out.println("\n=== UC 4: More than Three Parameters ===");
         System.out.println(max(3, 5, 7, 2, 9, 1));
         System.out.println(max("Dog", "Cat", "Horse", "Elephant"));
+        
+        System.out.println("\n=== UC 5: Print Max ===");
+        printMax(10, 40, 30);
+        printMax("Java", "Python", "C++");
         
     }
 }
